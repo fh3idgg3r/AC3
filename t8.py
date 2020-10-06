@@ -4,13 +4,23 @@ from math import sqrt
 
 app = Flash(__name__)
 
-@app.route('/AC3')
-def nao_entre_em_panico():
+@app.route('/')
+def ac3_defesa_cibernetica():
 
-	primos = "Tudo vai dar errado"
+	maximo = 100
 
-	return primos
+	a = 1
+	b = 1
+	num = 3
 
-if __name__ == "__main__"
-	port = int(os.environ.get("PORT", 5000))
-	app.run(host='0.0.0.0', port=port)
+	primo = "2,"
+
+	while b < maximo:
+		testeprimo = 1
+		for i in range(2, num):
+			if num % i == 0:
+				testeprimo = 0
+				break
+		if (testeprimo):
+			primo = primo + src(num) + ","
+			b += 1
