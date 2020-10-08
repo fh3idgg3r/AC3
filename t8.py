@@ -22,5 +22,5 @@ def ac3_defesa_cibernetica():
 				testeprimo = 0
 				break
 		if (testeprimo):
-			primo = primo + src(num) + ","
+			primo = primo + str(num) + ","
 			b += 1
