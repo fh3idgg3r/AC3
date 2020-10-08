@@ -2,7 +2,7 @@ import os
 from flask import Flask, jsonify, request
 from math import sqrt
 
-app = Flash(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def ac3_defesa_cibernetica():
