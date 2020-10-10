@@ -7,18 +7,9 @@ app = Flask(__name__)
 @app.route('/')
 def ac3_defesa_cibernetica():
 
-	maximo = 100
+	primos = "tudo vai dar certo"
+	return primos
 
-	a = 1
-	b = 1
-	num = 3
-
-	primo = "2,"
-
-	while b < maximo:
-		testeprimo = 1
-		for i in range(2, num):
-			if num % i == 0:
-				testeprimo = 0
-				break
-		
+if __name__ == "__main__":
+	port = int(os.environ.get("PORT", 5000))
+	app.run(host = '0.0.0.0', port = port)
