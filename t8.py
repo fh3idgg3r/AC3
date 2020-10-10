@@ -24,7 +24,7 @@ def def_ciber():
      		testeprimo = testeprimo + str(numero) + ","
      		b += 1
      		if(b % 10 == 0):
-     			testeprimo = testeprimo + "<p>"
+     			testeprimo = testeprimo + "</p>"
      	numero +=1
      return testeprimo
 
