@@ -1,6 +1,8 @@
 import os
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
+@app.route('/ac3')
 
 limite = 600
 c = 1
